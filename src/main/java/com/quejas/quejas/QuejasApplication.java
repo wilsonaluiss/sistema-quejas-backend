@@ -17,6 +17,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class QuejasApplication implements CommandLineRunner {
+    
+    
 
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
